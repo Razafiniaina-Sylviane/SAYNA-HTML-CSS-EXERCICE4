@@ -1,0 +1,230 @@
+@font-face{
+    font-family: 'syl';
+    src:url(../far_from_homecoming/Updated.otf);
+}
+:root{
+    --red: #B11313;
+    --yellow: #F1C530;
+    --blue: #114C92;
+    --white: #ffffff;
+    --black: #000000;
+}
+.text-rouge{
+    color: var(--red);
+}
+.text-bleu{
+    color: var(--blue);
+}
+.text-jaune{
+    color: var(--yellow);
+}
+.bg-rouge{
+    background-color: var(--red);
+}
+.bg-bleu{
+    background-color: var(--blue);
+}
+.bg-jaune{
+    background-color: var(--yellow);
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+h1{
+    font-family: 'syl';
+    color: #FFFF;
+    font-size: 32px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFFF;
+    font-weight:Bold 700;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFFF;
+    font-weight: SemiBold 600;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFFF;
+    font-weight: Medium 500;
+}
+p {
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 16px;
+    color: #FFFF;
+}
+.menu{
+    background-color: #B11313;
+}
+.bleu{
+    background-color: var(--blue);
+}
+.jaune{
+    background-color: #F1C530;
+}
+header{
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+}header img{
+    margin: 0 3px;
+}
+img.lg{
+    height: 25px;
+}
+img.logo2{
+    height:18px;
+}
+header a{
+    color:#FFFF;
+    margin: 0 3vh;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    padding: 8% 1vh;
+}
+footer ul li{
+    margin: 0 5vh;
+}
+footer.footer-logo{
+    justify-content: center;
+}
+footer .footer-img-logo{
+    background: var(--red);
+    clip-path:circle();
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 30px;
+}
+footer select{
+    border-radius: 10px;
+    color: #FFFF;
+    border: none;
+    width: 100px;
+    height:25px;
+    background: var(--red);
+}
+footer section::backdrop{
+    color: var(--white);
+    /* outline: none; */
+}
+footer option{
+    color: #FFFF;
+}
+.bloc1{
+    background-color: var(--yellow);
+}
+.paragraph1{
+    display: flex;
+}
+.toile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.bloc1 span{
+    margin: 12%;
+}
+
+.img-yellow{
+    transform: rotateY(180deg);
+    max-width: 100%;
+}
+.bloc2{
+    padding: 10%;
+    background-color: var(--red);
+}
+.antenne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.antenne img{
+    height: auto;
+    width: 100%;
+    padding: 5%;
+}
+.form{
+    display: flex;
+    margin: auto;
+    padding: 1vh 2vh;
+    width: 100%;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form input{
+    background-color: var(--red);
+    border-color: var(--white);
+    border: solid;
+    border-radius: 30.5px;
+    margin: 4% 0;
+    width: 85%;
+    color: var(--white);
+    height: 15%;
+}
+input::placeholder{
+    color: var(--white);
+}
+textarea::placeholder{
+    color: var(--white);
+    font-weight: bold;
+    padding-left: 5%;
+}
+input.grand{
+    height: 20vh;
+}
+input button{
+    text-justify: center;
+    text-align: center;
+    width: 75%;
+}
+.bloc3{
+    padding: 0 9%;
+    background-color: var(--blue);
+}
+.bloc3 ul{
+    color: var(--white);
+    list-style: none;
+}
+.bloc3-title{
+    padding-top: 1px;
+}
+.bloc3 span{
+    text-align: justify;
+    padding: 0 1%;
+    width: 100%;
+}
+
+.button-blue{
+    background-color: var(--blue);
+    border: solid;
+    margin: 5px 5px;
+    border-radius: 8px;
+    border-color: var(--white);
+    color: var(--white);
+    height: 9%;
+    
+}
+
